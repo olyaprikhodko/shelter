@@ -191,6 +191,15 @@ body {
    font-size: 17px;
 }
 
+.not_only_imag {
+   width: 698px;
+   height: 728px;
+}
+
+.not_only_imag img {
+   min-width: 100%;
+}
+
 .footer {
    display: flex;
    align-items: flex-end;
@@ -203,8 +212,67 @@ body {
 .footer_row {
    display: flex;
    width: 1280px;
-   height: 310px;
+   /*height: 310px;
+   padding: 0px 40px;*/
    justify-content: space-between;
    align-items: center;
-   padding: 0px 40px;
+   padding: 40px 40px 0px 40px;
+}
+
+.contacts {
+   width: 278px;
+   height: 243px;
+}
+
+.contacts_title {
+   color: #FFFFFF;
+   font-size: 35px;
+   line-height: 45.5px;
+   margin: 0px 0px 40px 0px;
+}
+
+.contacts_item1 {
+   background: url('img/svg/icon-email.svg') left no-repeat;
+   color: #F1CDB3;
+   font-size: 20px;
+   line-height: 23px;
+   margin: 0px 0px 28px 0px;
+   padding: 3px 0px 3px 50px;
+}
+
+.contacts_item2 {
+   background: url('img/svg/icon-phone.svg') left no-repeat;
+   color: #F1CDB3;
+   font-size: 20px;
+   line-height: 23px;
+   padding: 12px 0px 4px 50px;
+}
+
+.location {
+   width: 302px;
+   height: 243px;
+}
+
+.location_title {
+   color: #FFFFFF;
+   font-size: 35px;
+   line-height: 45.5px;
+   margin: 0px 0px 35px 0px;
+}
+
+.location_item1 {
+   background: url('img/svg/pin.svg') left no-repeat;
+   color: #F1CDB3;
+   font-size: 20px;
+   line-height: 23px;
+   margin: 0px 0px 20px 0px;
+   padding: 0px 0px 0px 40px;
+}
+
+.location_item2 {
+   background: url('img/svg/pin.svg') left no-repeat;
+   color: #F1CDB3;
+   font-size: 20px;
+   line-height: 23px;
+   padding: 9px 0px 9px 40px;
 }
