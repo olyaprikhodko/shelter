@@ -93,6 +93,7 @@ body {
 .container {
    max-width: 1280px;
    margin: 0px auto;
+   padding: 0 40px;
 }
 
 .content {
@@ -224,7 +225,7 @@ body {
 }
 
 .about {
-   padding: 80px 0 99px;
+   padding: 80px 0px 99px 0px;
 }
 
 .about_row {
@@ -257,6 +258,38 @@ body {
 .about_text p {
    margin: 25px 0 0;
 }
+
+.help {
+   padding: 60px 0px 60px 0px;
+}
+
+.help_title {
+   text-align: center;
+   margin: 0px 0px 60px 0px;
+   font-size: 35px;
+   line-height: 45.5px;
+   color: #545454;
+}
+
+.help_content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 0 87px;
+}
+
+.help_item {
+   text-align: center;
+   padding: 0px 60px 0px 60px;
+   margin: 0px 0px 55px 0px;
+}
+
+.help_image {
+   width: 60px;
+   height: 60px;
+   margin: 0px 0px 30px 0px;
+}
+
 
 .footer {
    display: flex;
