@@ -1,1 +1,1 @@
-https://olyaprikhodko.github.io/shelter/
+https://olyaprikhodko.github.io/shelter
