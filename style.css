@@ -169,6 +169,7 @@ body {
 
 .header_content {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
 }
@@ -230,6 +231,7 @@ body {
 
 .about_row {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    max-width: 850px;
    margin: 0 auto;
@@ -297,15 +299,18 @@ body {
 
 .donation_row {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    padding: 0 144px;
 }
 
 .donation_image {
+   max-width: 505px;
    padding: 15px 15px 15px 0;
 }
 
 .donation_content {
+   max-width: 380px;
    padding: 0 0 0 15px;
 }
 
@@ -337,6 +342,9 @@ body {
 .donation_number {
    font-size: 20px;
    line-height: 23px;
+}
+   
+.donation_number_a {
    color: #545454;
 }
 
@@ -349,25 +357,20 @@ body {
 }
 
 .footer {
-   display: flex;
-   align-items: flex-end;
    background-image: url("img/bgfooter.png");
    background-size: 100% auto;
-   height: 350px;
-   justify-content: center;
 }
 
 .footer_row {
    display: flex;
-   width: 1280px;
+   flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
    padding: 40px 40px 0px 40px;
 }
 
 .contacts {
-   width: 278px;
-   height: 243px;
+   max-width: 278px;
 }
 
 .contacts_title {
@@ -395,8 +398,7 @@ body {
 }
 
 .location {
-   width: 302px;
-   height: 243px;
+   max-width: 302px;
 }
 
 .location_title {
